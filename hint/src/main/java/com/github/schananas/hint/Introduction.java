@@ -9,7 +9,7 @@ class hello_world
 
     public void execute() {
         printHint(
-                "This one is easy! https://projectreactor.io/docs/core/release/reference/#intro-reactive will help you");
+                "This one is easy! https://projectreactor.io/docs/core/3.4.14/reference/#intro-reactive will help you");
     }
 }
 
@@ -36,7 +36,7 @@ class multi_result_service
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("This one is easy! https://projectreactor.io/docs/core/release/reference/#intro-reactive will help you");
+        printHint("This one is easy! https://projectreactor.io/docs/core/3.4.14/reference/#intro-reactive will help you");
     }
 }
 
@@ -45,7 +45,7 @@ class fortune_top_five
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("This one is easy! https://projectreactor.io/docs/core/release/reference/#intro-reactive will help you");
+        printHint("This one is easy! https://projectreactor.io/docs/core/3.4.14/reference/#intro-reactive will help you");
     }
 }
 
@@ -54,7 +54,7 @@ class nothing_happens_until_you_
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("This one is easy! https://projectreactor.io/docs/core/release/reference/#reactive.subscribe will help you");
+        printHint("This one is easy! https://projectreactor.io/docs/core/3.4.14/reference/#reactive.subscribe will help you");
     }
 }
 

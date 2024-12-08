@@ -11,15 +11,15 @@ import java.util.concurrent.CopyOnWriteArrayList;
  *
  * Read first:
  *
- * https://projectreactor.io/docs/core/release/reference/#reactor.hotCold
- * https://projectreactor.io/docs/core/release/reference/#which.multicasting
- * https://projectreactor.io/docs/core/release/reference/#advanced-broadcast-multiple-subscribers-connectableflux
+ * https://projectreactor.io/docs/core/3.4.14/reference/#reactor.hotCold
+ * https://projectreactor.io/docs/core/3.4.14/reference/#which.multicasting
+ * https://projectreactor.io/docs/core/3.4.14/reference/#advanced-broadcast-multiple-subscribers-connectableflux
  *
  * Useful documentation:
  *
- * https://projectreactor.io/docs/core/release/reference/#which-operator
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html
+ * https://projectreactor.io/docs/core/3.4.14/reference/#which-operator
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Mono.html
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Flux.html
  *
  * @author Stefan Dragisic
  */

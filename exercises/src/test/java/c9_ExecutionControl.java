@@ -22,17 +22,17 @@ import java.util.stream.Collectors;
  *
  * Read first:
  *
- * https://projectreactor.io/docs/core/release/reference/#schedulers
- * https://projectreactor.io/docs/core/release/reference/#advanced-parallelizing-parralelflux
- * https://projectreactor.io/docs/core/release/reference/#_the_publishon_method
- * https://projectreactor.io/docs/core/release/reference/#_the_subscribeon_method
- * https://projectreactor.io/docs/core/release/reference/#which.time
+ * https://projectreactor.io/docs/core/3.4.14/reference/#schedulers
+ * https://projectreactor.io/docs/core/3.4.14/reference/#advanced-parallelizing-parralelflux
+ * https://projectreactor.io/docs/core/3.4.14/reference/#_the_publishon_method
+ * https://projectreactor.io/docs/core/3.4.14/reference/#_the_subscribeon_method
+ * https://projectreactor.io/docs/core/3.4.14/reference/#which.time
  *
  * Useful documentation:
  *
- * https://projectreactor.io/docs/core/release/reference/#which-operator
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html
+ * https://projectreactor.io/docs/core/3.4.14/reference/#which-operator
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Mono.html
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Flux.html
  *
  * @author Stefan Dragisic
  */

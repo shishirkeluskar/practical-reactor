@@ -14,13 +14,13 @@ import java.util.concurrent.atomic.AtomicInteger;
  *
  * Read first:
  *
- * https://projectreactor.io/docs/core/release/reference/#context
+ * https://projectreactor.io/docs/core/3.4.14/reference/#context
  *
  * Useful documentation:
  *
- * https://projectreactor.io/docs/core/release/reference/#which-operator
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html
+ * https://projectreactor.io/docs/core/3.4.14/reference/#which-operator
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Mono.html
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Flux.html
  *
  * @author Stefan Dragisic
  */

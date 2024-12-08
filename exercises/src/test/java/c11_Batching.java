@@ -10,14 +10,14 @@ import java.time.Duration;
  *
  * Read first:
  *
- * https://projectreactor.io/docs/core/release/reference/#advanced-three-sorts-batching
- * https://projectreactor.io/docs/core/release/reference/#which.window
+ * https://projectreactor.io/docs/core/3.4.14/reference/#advanced-three-sorts-batching
+ * https://projectreactor.io/docs/core/3.4.14/reference/#which.window
  *
  * Useful documentation:
  *
- * https://projectreactor.io/docs/core/release/reference/#which-operator
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html
+ * https://projectreactor.io/docs/core/3.4.14/reference/#which-operator
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Mono.html
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Flux.html
  *
  * @author Stefan Dragisic
  */

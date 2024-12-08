@@ -38,7 +38,7 @@ class open_24_7
 
     public void execute() {
         printHint(
-                "Check the documentation to see how to use the autoCancel parameter: https://projectreactor.io/docs/core/release/reference/#_sinks_many_multicast_onbackpressurebufferargs");
+                "Check the documentation to see how to use the autoCancel parameter: https://projectreactor.io/docs/core/3.4.14/reference/#_sinks_many_multicast_onbackpressurebufferargs");
     }
 }
 
@@ -58,6 +58,6 @@ class emit_failure
 
     public void execute() {
         printHint(
-                "Read documentation carefully. How should you emit elements in optimistically manner? Can you define different emit strategies? https://projectreactor.io/docs/core/release/reference/#sinks");
+                "Read documentation carefully. How should you emit elements in optimistically manner? Can you define different emit strategies? https://projectreactor.io/docs/core/3.4.14/reference/#sinks");
     }
 }

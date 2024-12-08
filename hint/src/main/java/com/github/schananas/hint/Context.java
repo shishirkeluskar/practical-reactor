@@ -9,7 +9,7 @@ class message_tracker
 
     public void execute() {
         printHint(
-                "See: https://projectreactor.io/docs/core/release/reference/#context.read");
+                "See: https://projectreactor.io/docs/core/3.4.14/reference/#context.read");
     }
 }
 
@@ -19,7 +19,7 @@ class execution_counter
 
     public void execute() {
         printHint(
-                "It seams there is no counter initialized in context... See: https://projectreactor.io/docs/core/release/reference/#context.write");
+                "It seams there is no counter initialized in context... See: https://projectreactor.io/docs/core/3.4.14/reference/#context.write");
     }
 }
 

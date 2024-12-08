@@ -8,7 +8,7 @@ class no_subscription_no_gains
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("Without modifying the sequence, you want to execute additional behavior on post-subscription: https://projectreactor.io/docs/core/release/reference/#which.peeking");
+        printHint("Without modifying the sequence, you want to execute additional behavior on post-subscription: https://projectreactor.io/docs/core/3.4.14/reference/#which.peeking");
     }
 }
 
@@ -17,7 +17,7 @@ class be_there_early
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("Without modifying the sequence, you want to execute additional behavior on start of the sequence: https://projectreactor.io/docs/core/release/reference/#which.peeking");
+        printHint("Without modifying the sequence, you want to execute additional behavior on start of the sequence: https://projectreactor.io/docs/core/3.4.14/reference/#which.peeking");
     }
 }
 
@@ -26,7 +26,7 @@ class atomic_counter
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("Without modifying the sequence, you want to execute additional behavior on emissions: https://projectreactor.io/docs/core/release/reference/#which.peeking");
+        printHint("Without modifying the sequence, you want to execute additional behavior on emissions: https://projectreactor.io/docs/core/3.4.14/reference/#which.peeking");
     }
 }
 
@@ -35,7 +35,7 @@ class successfully_executed
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("Without modifying the sequence, you want to execute additional behavior on completion: https://projectreactor.io/docs/core/release/reference/#which.peeking");
+        printHint("Without modifying the sequence, you want to execute additional behavior on completion: https://projectreactor.io/docs/core/3.4.14/reference/#which.peeking");
     }
 }
 
@@ -45,7 +45,7 @@ class need_to_cancel
 
     public void execute() {
         printHint(
-                "Without modifying the sequence, you want to execute additional behavior on cancellation: https://projectreactor.io/docs/core/release/reference/#which.peeking");
+                "Without modifying the sequence, you want to execute additional behavior on cancellation: https://projectreactor.io/docs/core/3.4.14/reference/#which.peeking");
     }
 }
 
@@ -55,7 +55,7 @@ class terminator
 
     public void execute() {
         printHint(
-                "Without modifying the sequence, you want to execute additional behavior https://projectreactor.io/docs/core/release/reference/#which.peeking");
+                "Without modifying the sequence, you want to execute additional behavior https://projectreactor.io/docs/core/3.4.14/reference/#which.peeking");
     }
 }
 
@@ -65,7 +65,7 @@ class one_to_catch_them_all
 
     public void execute() {
         printHint(
-                "Without modifying the sequence, you want to execute additional behavior on any terminating condition (complete, error, cancel): https://projectreactor.io/docs/core/release/reference/#which.peeking");
+                "Without modifying the sequence, you want to execute additional behavior on any terminating condition (complete, error, cancel): https://projectreactor.io/docs/core/3.4.14/reference/#which.peeking");
     }
 }
 
@@ -75,7 +75,7 @@ class ordering_is_important
 
     public void execute() {
         printHint(
-                "Check the documentation: https://projectreactor.io/docs/core/release/reference/");
+                "Check the documentation: https://projectreactor.io/docs/core/3.4.14/reference/");
     }
 }
 
@@ -85,6 +85,6 @@ class one_to_rule_them_all
 
     public void execute() {
         printHint(
-                "Without modifying the sequence, you want to execute additional behavior on any type of signal, represented as a Signal: https://projectreactor.io/docs/core/release/reference/#which.peeking");
+                "Without modifying the sequence, you want to execute additional behavior on any type of signal, represented as a Signal: https://projectreactor.io/docs/core/3.4.14/reference/#which.peeking");
     }
 }

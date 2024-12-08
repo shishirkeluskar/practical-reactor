@@ -21,19 +21,19 @@ import java.util.concurrent.atomic.AtomicReference;
  *
  * Read first:
  *
- * https://projectreactor.io/docs/core/release/reference/#reactive.backpressure
- * https://projectreactor.io/docs/core/release/reference/#_on_backpressure_and_ways_to_reshape_requests
- * https://projectreactor.io/docs/core/release/reference/#_operators_that_change_the_demand_from_downstream
- * https://projectreactor.io/docs/core/release/reference/#producing
- * https://projectreactor.io/docs/core/release/reference/#_asynchronous_but_single_threaded_push
- * https://projectreactor.io/docs/core/release/reference/#_a_hybrid_pushpull_model
- * https://projectreactor.io/docs/core/release/reference/#_an_alternative_to_lambdas_basesubscriber
+ * https://projectreactor.io/docs/core/3.4.14/reference/#reactive.backpressure
+ * https://projectreactor.io/docs/core/3.4.14/reference/#_on_backpressure_and_ways_to_reshape_requests
+ * https://projectreactor.io/docs/core/3.4.14/reference/#_operators_that_change_the_demand_from_downstream
+ * https://projectreactor.io/docs/core/3.4.14/reference/#producing
+ * https://projectreactor.io/docs/core/3.4.14/reference/#_asynchronous_but_single_threaded_push
+ * https://projectreactor.io/docs/core/3.4.14/reference/#_a_hybrid_pushpull_model
+ * https://projectreactor.io/docs/core/3.4.14/reference/#_an_alternative_to_lambdas_basesubscriber
  *
  * Useful documentation:
  *
- * https://projectreactor.io/docs/core/release/reference/#which-operator
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html
+ * https://projectreactor.io/docs/core/3.4.14/reference/#which-operator
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Mono.html
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Flux.html
  *
  * @author Stefan Dragisic
  */

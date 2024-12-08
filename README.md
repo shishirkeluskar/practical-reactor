@@ -13,7 +13,7 @@ If you are already familiar with Project Reactor or reactive programing, and you
 ### What do you need to start?
 Knowing what Project Reactor is, what Mono and Flux are is enough to get you started!
 Other than that you will need a nice IDE, like Intellij or Eclipse, Project Reactor reference guide and some time to spare!
-No books or paid courses needed, all chapters and exercises are linked to particular section in [reference guide](https://projectreactor.io/docs/core/release/reference/).
+No books or paid courses needed, all chapters and exercises are linked to particular section in [reference guide](https://projectreactor.io/docs/core/3.4.14/reference/).
 
 ## How to start?
 

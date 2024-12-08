@@ -19,7 +19,7 @@ class hot_vs_cold
 
     public void execute() {
         printHint(
-                "You want to connect multiple Subscriber to a Flux and permanently connect the source when enough subscribers have registered. https://projectreactor.io/docs/core/release/reference/#which.multicasting "
+                "You want to connect multiple Subscriber to a Flux and permanently connect the source when enough subscribers have registered. https://projectreactor.io/docs/core/3.4.14/reference/#which.multicasting "
                         + "Subscriber 1 completes and then subscriber 2 starts. How would you stop updates stream from completing if there are no subscribers? https://stackoverflow.com/questions/50528668/why-does-share-have-no-effect-on-cold-sources-autoconnect-vs-refcount");
     }
 }
@@ -29,6 +29,6 @@ class history_lesson
         extends AbstractMojo implements Hint {
     public void execute() {
         printHint(
-                "You want to cache data from a Publisher and replay it to later subscribers... There is multiple ways of solving this one. See: https://projectreactor.io/docs/core/release/reference/#which.multicasting ");
+                "You want to cache data from a Publisher and replay it to later subscribers... There is multiple ways of solving this one. See: https://projectreactor.io/docs/core/3.4.14/reference/#which.multicasting ");
     }
 }

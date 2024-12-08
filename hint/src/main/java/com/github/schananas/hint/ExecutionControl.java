@@ -8,7 +8,7 @@ class slow_down_there_buckaroo
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("You need to introduce a delay between each notification. (between each onNext signal): https://projectreactor.io/docs/core/release/reference/#which.time");
+        printHint("You need to introduce a delay between each notification. (between each onNext signal): https://projectreactor.io/docs/core/3.4.14/reference/#which.time");
     }
 }
 
@@ -18,7 +18,7 @@ class ready_set_go
 
     public void execute() {
         printHint(
-                "You want to introduce a delay before the subscription happens: https://projectreactor.io/docs/core/release/reference/#which.time. Is flatMap() right operator for this case? There are only few `delay` operators, check documentation, which one suite your needs");
+                "You want to introduce a delay before the subscription happens: https://projectreactor.io/docs/core/3.4.14/reference/#which.time. Is flatMap() right operator for this case? There are only few `delay` operators, check documentation, which one suite your needs");
     }
 }
 
@@ -28,7 +28,7 @@ class non_blocking
 
     public void execute() {
         printHint(
-                "See: https://projectreactor.io/docs/core/release/reference/#schedulers");
+                "See: https://projectreactor.io/docs/core/3.4.14/reference/#schedulers");
     }
 }
 
@@ -38,7 +38,7 @@ class blocking
 
     public void execute() {
         printHint(
-                "See: https://projectreactor.io/docs/core/release/reference/#schedulers and https://projectreactor.io/docs/core/release/reference/#faq.wrap-blocking");
+                "See: https://projectreactor.io/docs/core/3.4.14/reference/#schedulers and https://projectreactor.io/docs/core/3.4.14/reference/#faq.wrap-blocking");
     }
 }
 
@@ -68,6 +68,6 @@ class event_processor
 
     public void execute() {
         printHint(
-                "See: https://projectreactor.io/docs/core/release/reference/#advanced-parallelizing-parralelflux Use operators like parallel(), .runOn(), .sequential()...");
+                "See: https://projectreactor.io/docs/core/3.4.14/reference/#advanced-parallelizing-parralelflux Use operators like parallel(), .runOn(), .sequential()...");
     }
 }

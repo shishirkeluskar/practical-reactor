@@ -19,15 +19,15 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * Read first:
  *
- * https://projectreactor.io/docs/core/release/reference/#intro-reactive
- * https://projectreactor.io/docs/core/release/reference/#reactive.subscribe
- * https://projectreactor.io/docs/core/release/reference/#_subscribe_method_examples
+ * https://projectreactor.io/docs/core/3.4.14/reference/#intro-reactive
+ * https://projectreactor.io/docs/core/3.4.14/reference/#reactive.subscribe
+ * https://projectreactor.io/docs/core/3.4.14/reference/#_subscribe_method_examples
  *
  * Useful documentation:
  *
- * https://projectreactor.io/docs/core/release/reference/#which-operator
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html
+ * https://projectreactor.io/docs/core/3.4.14/reference/#which-operator
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Mono.html
+ * https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Flux.html
  *
  * @author Stefan Dragisic
  */

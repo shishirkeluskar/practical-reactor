@@ -8,7 +8,7 @@ class transforming_sequence
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("This is easy! First read: https://projectreactor.io/docs/core/release/reference/#which.values");
+        printHint("This is easy! First read: https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 
 }
@@ -18,7 +18,7 @@ class transforming_sequence_2
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("This is easy! First read: https://projectreactor.io/docs/core/release/reference/#which.values");
+        printHint("This is easy! First read: https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 
 }
@@ -28,7 +28,7 @@ class cast
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("This is easy! First read: https://projectreactor.io/docs/core/release/reference/#which.values");
+        printHint("This is easy! First read: https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 
 }
@@ -38,7 +38,7 @@ class maybe
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("This is easy! First read: https://projectreactor.io/docs/core/release/reference/#which.values");
+        printHint("This is easy! First read: https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 
 }
@@ -48,7 +48,7 @@ class sequence_sum
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("You want to aggregate a Flux by applying a function between each element... https://projectreactor.io/docs/core/release/reference/#which.values");
+        printHint("You want to aggregate a Flux by applying a function between each element... https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 
 }
@@ -58,7 +58,7 @@ class sum_each_successive
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("You want to aggregate a Flux by applying a function between each element but emitting each intermediary value... https://projectreactor.io/docs/core/release/reference/#which.values");
+        printHint("You want to aggregate a Flux by applying a function between each element but emitting each intermediary value... https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 
 }
@@ -68,7 +68,7 @@ class sequence_starts_with_zero
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("You  want to add pre-set elements to an existing sequence: https://projectreactor.io/docs/core/release/reference/#which.values");
+        printHint("You  want to add pre-set elements to an existing sequence: https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 
 }

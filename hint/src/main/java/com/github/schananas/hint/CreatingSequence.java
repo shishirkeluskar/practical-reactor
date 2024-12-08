@@ -8,7 +8,7 @@ class value_I_already_have_mono
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("Creating a New Sequence that emits a T, and you already have:  https://projectreactor.io/docs/core/release/reference/#which.create");
+        printHint("Creating a New Sequence that emits a T, and you already have:  https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -17,7 +17,7 @@ class potentially_null_mono
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("Creating a New Sequence from a potentially null T: https://projectreactor.io/docs/core/release/reference/#which.create");
+        printHint("Creating a New Sequence from a potentially null T: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -26,7 +26,7 @@ class optional_value
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("Creating a New Sequence from an Optional<T>: https://projectreactor.io/docs/core/release/reference/#which.create");
+        printHint("Creating a New Sequence from an Optional<T>: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -35,7 +35,7 @@ class callable_counter
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("Creating a New Sequence that emits from various single-valued sources such as task: https://projectreactor.io/docs/core/release/reference/#which.create");
+        printHint("Creating a New Sequence that emits from various single-valued sources such as task: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -45,7 +45,7 @@ class future_counter
 
     public void execute() {
         printHint(
-                "Creating a New Sequence that emits from various single-valued sources such as future: https://projectreactor.io/docs/core/release/reference/#which.create");
+                "Creating a New Sequence that emits from various single-valued sources such as future: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -55,7 +55,7 @@ class runnable_counter
 
     public void execute() {
         printHint(
-                "Creating a New Sequence that emits from various single-valued sources such as runnable task: https://projectreactor.io/docs/core/release/reference/#which.create");
+                "Creating a New Sequence that emits from various single-valued sources such as runnable task: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -65,7 +65,7 @@ class acknowledged
 
     public void execute() {
         printHint(
-                "Creating a New Sequence that completes empty: https://projectreactor.io/docs/core/release/reference/#which.create");
+                "Creating a New Sequence that completes empty: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -75,7 +75,7 @@ class seen
 
     public void execute() {
         printHint(
-                "Creating a New Sequence that never does anything: https://projectreactor.io/docs/core/release/reference/#which.create");
+                "Creating a New Sequence that never does anything: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -85,7 +85,7 @@ class trouble_maker
 
     public void execute() {
         printHint(
-                "Creating a New Sequence that errors immediately: https://projectreactor.io/docs/core/release/reference/#which.create");
+                "Creating a New Sequence that errors immediately: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -95,7 +95,7 @@ class from_array
 
     public void execute() {
         printHint(
-                "Creating a New Sequence that iterates over array: https://projectreactor.io/docs/core/release/reference/#which.create");
+                "Creating a New Sequence that iterates over array: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -105,7 +105,7 @@ class from_list
 
     public void execute() {
         printHint(
-                "Creating a New Sequence that iterates over iterable or a collection: https://projectreactor.io/docs/core/release/reference/#which.create");
+                "Creating a New Sequence that iterates over iterable or a collection: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -115,7 +115,7 @@ class from_stream
 
     public void execute() {
         printHint(
-                "Creating a New Sequence that iterates over a Stream supplied for each Subscription: https://projectreactor.io/docs/core/release/reference/#which.create");
+                "Creating a New Sequence that iterates over a Stream supplied for each Subscription: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -125,7 +125,7 @@ class interval
 
     public void execute() {
         printHint(
-                "You want to repeat an existing sequence but at time intervals: https://projectreactor.io/docs/core/release/reference/#which.create");
+                "You want to repeat an existing sequence but at time intervals: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -135,7 +135,7 @@ class range
 
     public void execute() {
         printHint(
-                "Creating a New Sequence that iterates over a range of integers https://projectreactor.io/docs/core/release/reference/#which.create");
+                "Creating a New Sequence that iterates over a range of integers https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -145,7 +145,7 @@ class repeat
 
     public void execute() {
         printHint(
-                "You want to repeat an existing sequence: https://projectreactor.io/docs/core/release/reference/#which.create");
+                "You want to repeat an existing sequence: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -155,7 +155,7 @@ class generate_programmatically
 
     public void execute() {
         printHint(
-                "Creating a New Sequence that generates events programmatically: https://projectreactor.io/docs/core/release/reference/#which.create. Also you may want to introduce counters");
+                "Creating a New Sequence that generates events programmatically: https://projectreactor.io/docs/core/3.4.14/reference/#which.create. Also you may want to introduce counters");
     }
 }
 

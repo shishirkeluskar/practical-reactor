@@ -9,7 +9,7 @@ class batch_writer
 
     public void execute() {
         printHint(
-                "Based of method signiture decide which batching strategy to use (grouping, windowing, and buffering)... https://projectreactor.io/docs/core/release/reference/#which.window");
+                "Based of method signiture decide which batching strategy to use (grouping, windowing, and buffering)... https://projectreactor.io/docs/core/3.4.14/reference/#which.window");
     }
 }
 

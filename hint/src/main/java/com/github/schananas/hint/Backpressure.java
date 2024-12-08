@@ -9,7 +9,7 @@ class request_and_demand
 
     public void execute() {
         printHint(
-                "You want to get notified (add additional behaviour) on request: https://projectreactor.io/docs/core/release/reference/#which.peeking");
+                "You want to get notified (add additional behaviour) on request: https://projectreactor.io/docs/core/3.4.14/reference/#which.peeking");
     }
 }
 
@@ -19,7 +19,7 @@ class limited_demand
 
     public void execute() {
         printHint(
-                "See: https://projectreactor.io/docs/core/release/reference/#_on_backpressure_and_ways_to_reshape_requests");
+                "See: https://projectreactor.io/docs/core/3.4.14/reference/#_on_backpressure_and_ways_to_reshape_requests");
     }
 }
 @Mojo(name = "uuid_generator")
@@ -37,7 +37,7 @@ class pressure_is_too_much
 
     public void execute() {
         printHint(
-                "You want to deal with backpressure errors by throwing a special IllegalStateException (OverflowException). See: https://projectreactor.io/docs/core/release/reference/#which.errors");
+                "You want to deal with backpressure errors by throwing a special IllegalStateException (OverflowException). See: https://projectreactor.io/docs/core/3.4.14/reference/#which.errors");
     }
 }
 
@@ -47,7 +47,7 @@ class u_wont_brake_me
 
     public void execute() {
         printHint(
-                "You want to deal with backpressure errors by buffering excess values (bounded or unbounded). See: https://projectreactor.io/docs/core/release/reference/#which.errors");
+                "You want to deal with backpressure errors by buffering excess values (bounded or unbounded). See: https://projectreactor.io/docs/core/3.4.14/reference/#which.errors");
     }
 }
 
@@ -57,6 +57,6 @@ class subscriber
 
     public void execute() {
         printHint(
-                "You should interact with subscription object. See: https://projectreactor.io/docs/core/release/reference/#_an_alternative_to_lambdas_basesubscriber");
+                "You should interact with subscription object. See: https://projectreactor.io/docs/core/3.4.14/reference/#_an_alternative_to_lambdas_basesubscriber");
     }
 }

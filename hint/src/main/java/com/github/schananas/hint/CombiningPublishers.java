@@ -17,7 +17,7 @@ class task_executor
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("You want to transform existing data running an asynchronous task for each source item https://projectreactor.io/docs/core/release/reference/#which.values");
+        printHint("You want to transform existing data running an asynchronous task for each source item https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 }
 
@@ -26,7 +26,7 @@ class streaming_service
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("You want to transform existing data running an asynchronous task for each source item where the async task can return multiple values, from a Mono source: https://projectreactor.io/docs/core/release/reference/#which.values");
+        printHint("You want to transform existing data running an asynchronous task for each source item where the async task can return multiple values, from a Mono source: https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 }
 
@@ -35,7 +35,7 @@ class i_am_rubber_you_are_glue
         extends AbstractMojo implements Hint {
 
     public void execute() {
-        printHint("You want to combine publishers in sequential order: https://projectreactor.io/docs/core/release/reference/#which.values");
+        printHint("You want to combine publishers in sequential order: https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 }
 
@@ -55,7 +55,7 @@ class need_for_speed
 
     public void execute() {
         printHint(
-                "I want to combine publishers selecting the first publisher which produces a value first: https://projectreactor.io/docs/core/release/reference/#which.values");
+                "I want to combine publishers selecting the first publisher which produces a value first: https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 }
 
@@ -65,7 +65,7 @@ class plan_b
 
     public void execute() {
         printHint(
-                "You have an empty sequence but you want another sequence instead: https://projectreactor.io/docs/core/release/reference/#which.create");
+                "You have an empty sequence but you want another sequence instead: https://projectreactor.io/docs/core/3.4.14/reference/#which.create");
     }
 }
 
@@ -75,7 +75,7 @@ class mail_box_switcher
 
     public void execute() {
         printHint(
-                "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#switchOnFirst-java.util.function.BiFunction-");
+                "https://projectreactor.io/docs/core/3.4.14/api/reactor/core/publisher/Flux.html#switchOnFirst-java.util.function.BiFunction-");
     }
 }
 
@@ -85,7 +85,7 @@ class instant_search
 
     public void execute() {
         printHint(
-                "You want to combine publishers selecting the first publisher which is triggered by the elements in a source sequence. This operator could have nickname 'flatMapLatest' because the way how it works... https://projectreactor.io/docs/core/release/reference/#which.values");
+                "You want to combine publishers selecting the first publisher which is triggered by the elements in a source sequence. This operator could have nickname 'flatMapLatest' because the way how it works... https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 }
 
@@ -95,7 +95,7 @@ class prettify
 
     public void execute() {
         printHint(
-                "You want to combine publishers by coordinating their termination... https://projectreactor.io/docs/core/release/reference/#which.values. Use when, and, then, thenReturn...");
+                "You want to combine publishers by coordinating their termination... https://projectreactor.io/docs/core/3.4.14/reference/#which.values. Use when, and, then, thenReturn...");
     }
 }
 
@@ -105,7 +105,7 @@ class one_to_n
 
     public void execute() {
         printHint(
-                "You have a sequence but you are not interested in values, and you want to switch to a Flux at the end: https://projectreactor.io/docs/core/release/reference/#which.values");
+                "You have a sequence but you are not interested in values, and you want to switch to a Flux at the end: https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 }
 
@@ -125,7 +125,7 @@ class major_merger
 
     public void execute() {
         printHint(
-                "You want to combine publishers in emission order (combined items emitted as they come): https://projectreactor.io/docs/core/release/reference/#which.values");
+                "You want to combine publishers in emission order (combined items emitted as they come): https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 }
 
@@ -135,7 +135,7 @@ class car_factory
 
     public void execute() {
         printHint(
-                "You want to combine publishers with different types or to pair values: https://projectreactor.io/docs/core/release/reference/#which.values");
+                "You want to combine publishers with different types or to pair values: https://projectreactor.io/docs/core/3.4.14/reference/#which.values");
     }
 }
 
